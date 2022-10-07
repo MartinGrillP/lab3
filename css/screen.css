@@ -29,4 +29,5 @@ p, ol, li, h1 {
 #input-submit input {
   border-style: none;
   width: 40%;
+  padding: 0.6em; /* 13.197px / 22px*/
 }
