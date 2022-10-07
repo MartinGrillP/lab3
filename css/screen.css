@@ -4,11 +4,23 @@
 */
 
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', Arial, Verdana;
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
+  background-color: lightgrey;
+}
+
+form {
+  padding: 1.667em; /* 36.674px / 22*/
+  text-align: center;
+  background-color: grey;
+}
+
+h1 {
+  font-size: 1.667em; /* 36.674px / 22*/
+  padding: 1em; 
 }
 
 input {
