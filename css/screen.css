@@ -36,5 +36,15 @@ p, ol, li, h1 {
 
 #input-email input {
   border-style: none;
-  width: 80%;
+  width: 40%;
+}
+
+@media screen and (min-width: 37.5em) {/*600px / 16px*/ 
+  #input-submit input {
+    width: 100%;
+  }
+
+  #input-email input {
+    width: 100%;
+  }
 }
