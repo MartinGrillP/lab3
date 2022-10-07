@@ -16,12 +16,13 @@ html {
 form {
   background-color: darkgrey;
 }
+
 ol {
   background-color: grey;
 }
+
 h1 {
-  font-size: 1.3636em; /* 30px / 22px*/
-  
+  font-size: 1.3636em; /* 30px / 22px*/  
 }
 
 p {
