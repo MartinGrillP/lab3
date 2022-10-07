@@ -10,19 +10,23 @@ html {
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
   background-color: lightgrey;
+  text-align: left;
 }
 
 form {
-  padding: 1.667em; /* 36.674px / 22*/
-  text-align: center;
+   /* 36.674px / 22*/
   background-color: grey;
 }
 
 h1 {
   font-size: 1.667em; /* 36.674px / 22*/
-  padding: 1em; 
 }
 
-input {
+p, ol, li, h1 {
+  padding: 1em;
+}
+
+#input-submit input {
   border-style: none;
+  width: 40%;
 }
