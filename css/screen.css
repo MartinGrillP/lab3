@@ -14,15 +14,19 @@ html {
 }
 
 form {
-   /* 36.674px / 22*/
   background-color: darkgrey;
 }
 ol {
   background-color: grey;
 }
 h1 {
-  font-size: 1.3636em; /* 30px / 22*/
+  font-size: 1.3636em; /* 30px / 22px*/
   
+}
+
+p {
+  padding: 1em;
+  padding-left: 1.667em; /* 36.674px / 22*/
 }
 
 ol, li, h1 {
