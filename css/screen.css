@@ -15,9 +15,11 @@ html {
 
 form {
    /* 36.674px / 22*/
+  background-color: darkgrey;
+}
+ol {
   background-color: grey;
 }
-
 h1 {
   font-size: 1.667em; /* 36.674px / 22*/
 }
@@ -30,4 +32,9 @@ p, ol, li, h1 {
   border-style: none;
   width: 40%;
   padding: 0.6em; /* 13.197px / 22px*/
+}
+
+#input-email input {
+  border-style: none;
+  width: 80%;
 }
