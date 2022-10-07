@@ -35,22 +35,29 @@ ol, li, h1 {
 }
 
 #input-submit input {
+  background-color:#D3D3D3;
+  border-style: none;
   width: 100%;
 }
 
 #input-email input {
+  background-color:#D3D3D3;
+  border-style: none;
   width: 100%;
+}
+
+#input-age-verification input{
+  background-color:#D3D3D3;
+  border-style: none;
 }
 
 @media screen and (min-width: 37.5em) {/*600px / 16px*/ 
   #input-submit input {
-    border-style: none;
     width: 40%;
     padding: 0.6em; /* 13.197px / 22px*/
   }
 
   #input-email input {
-    border-style: none;
     width: 40%;
   }
   
