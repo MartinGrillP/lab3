@@ -39,12 +39,23 @@ p, ol, li, h1 {
   width: 40%;
 }
 
+#input-submit input {
+  width: 100%;
+}
+
+#input-email input {
+  width: 100%;
+}
+
 @media screen and (min-width: 37.5em) {/*600px / 16px*/ 
   #input-submit input {
-    width: 100%;
+    border-style: none;
+    width: 40%;
+    padding: 0.6em; /* 13.197px / 22px*/
   }
 
   #input-email input {
-    width: 100%;
+    border-style: none;
+    width: 40%;
   }
 }
